@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quantics</title>
+    <script src="https://kit.fontawesome.com/53665e051b.js" crossorigin="anonymous"></script> 
+
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
     <link rel="icon" href="./resources/images/logo.svg" type="image/svg>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav>
-        <img src="./resources/images/logo.png" alt="Quantics PsiPhi logo" class="logo">
+        <a href="#"><img src="./resources/images/logo.png" alt="Quantics PsiPhi logo" class="logo"></a>
         <h1>Quantics</h1>
         <div class="menu">
-            <a href="#">Documentation</a>
-            <a href="#">FAQs</a>
-            <a href="#">Forum</a>
+            <a href="#">About</a>
             <a href="#">Tutorial</a>
+            <a href="#">Forum</a>
+            <a href="#">Theory</a>
         </div>
     </nav>
 
@@ -31,6 +32,37 @@
                   </svg></button>
             </div>
         </div>
+    </div>
+
+    <div class="subsection-1">
+        <div class="subsection-1-title">
+            <h3> What is Quantics? </h3>
+        </div>
+        <div class="subsection-1-content">
+            <p>Quantics is a general purpose suite of codes designed to solve the time-dependent Schrödinger equation for molecular systems. It is based around accurate grid-based calculations and implements the powerful multi-configurational time-dependent Hartree algorithm in a number of different flavours. It also allows Gaussian Wavepacket propagations based on the G-MCTDH and vMCG algorithms, including the direct dynamics formulation of DD-vMCG to calculate potential surfaces on-the-fly. Trajectory based simulations of the evolving wavepacket are also possible, including trajectory surface hopping for non-adiabatic systems.</p>
+        </div>
+        <div class="subsection-1-buttons">
+            <button type="button"> Learn more <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="item-1">
+            <h3> Quick Links </h3>
+        </div>
+        <div class="item-2">
+            <h4>Visit out Discourse channel for lots of helpful tips and tricks </h4>
+            <button type="button"> Forum <i class="fa-brands fa-discourse"></i></button>
+        </div>
+        <div class="item-3">
+            <h4>See out FAQs for the answers to the qustions everyone is asking </h4>
+            <button type="button"> FAQs <i class="fa fa-question-circle" aria-hidden="true"></i></button>
+        </div>
+        <div class="item-4">
+            <h4>Want to know more behind the thoery of MCTDH and its derivatives? Get a quick lecture here</h4>
+            <button type="button"> Theory <i class="fa-solid fa-atom"></i></button>
+        </div>
+
     </div>
 </body>
 </html>
